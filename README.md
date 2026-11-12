@@ -4,13 +4,15 @@ Public character equipment, talents and statistics for tools such as ChatGPT.
 
 ## Current delivery status
 
-Phase 1 is implemented: manual retrieval, validation, mocked tests and downloadable
-candidate artifacts. Hourly scheduling and automatic commits are deliberately
-disabled until a real GitHub-hosted manual run successfully retrieves valid data.
-No successful live runner test has been established by the implementation itself.
+The [manual GitHub-hosted test](https://github.com/stefan-mostert/wow-forever-armory/actions/runs/43303688505)
+successfully retrieved and validated Otheos. The source reported fromCache=false
+and newer fetchedAt metadata; character information was unchanged.
 
-See [SPEC.md](SPEC.md) for the source of truth. Change the specification before
-changing functionality.
+Hourly scheduling (minute 23 UTC) and automatic commits are enabled by the
+Phase 2 workflow after this change is merged. No home PC is required.
+The first Phase 2 publication and scheduled run still need to be observed.
+
+See [SPEC.md](SPEC.md) for the source of truth. Change it before functionality.
 
 ## How it works
 
@@ -46,25 +48,26 @@ Without copying the existing files first, this is treated as an initial snapshot
 
 ## Run GitHub Actions
 
-Merge the Phase 1 pull request to main so GitHub registers the manual workflow.
-Open Actions, select **Update Armory (Phase 1)**, choose **Run workflow**, select
-main and run it. No secrets, cookies or personal token are needed.
+Open Actions, select **Update Armory**, choose **Run workflow**, select the
+default branch and run it. It also runs hourly at minute 23 UTC. GitHub may delay
+scheduled runs, so this is not an exact hourly service guarantee.
 
-The workflow runs mocked tests before calling the live API. Download the
-armory-phase1-RUN_ID artifact to inspect candidate JSON, update-status.json and
-updater.log. A green run means all configured characters were retrieved and
-validated. On failure, inspect the failed step and available diagnostics.
-Candidate files are not committed in Phase 1; published raw URLs stay unchanged.
+The workflow tests first, fetches candidates and publishes changed snapshots and
+status using the built-in GITHUB_TOKEN with contents:write. It stages only
+configured output filenames and update-status.json, skips empty commits and
+serializes updater runs. No secrets, cookies or personal token are required.
+Only the default branch can run the updater.
 
-After a verified successful GitHub-hosted retrieval, Phase 2 can add:
-* An hourly schedule: cron '23 * * * *' (UTC; execution may be delayed).
-* A separate publication step with contents: write using GITHUB_TOKEN.
-* Staging only configured snapshots plus update-status.json, skipping empty commits.
-* Publishing from main only, retaining the repository-wide concurrency group.
-* Failure status publication even when retrieval fails, without replacing good data.
+Failures still publish changed diagnostic status where possible while retaining
+the last good snapshots. A failed retrieval or push makes the workflow fail.
+Concurrent human pushes can cause a safe push rejection; rerun on the latest
+default branch. Branch rules may require allowing the bot to publish or changing
+the design to publication pull requests.
 
-These changes are gated on the live test and are not currently enabled.
-Branch rules may require a publication PR rather than a direct push.
+Download the armory-update-RUN_ID artifact to inspect candidate JSON,
+update-status.json and updater.log. The publication step reports whether it made
+a commit. A green Phase 2 run means all characters were checked and publication
+completed or there were no meaningful changes.
 
 ## Add a character
 
@@ -110,8 +113,9 @@ snapshot changes, not every check. Persisted last_successful_check is the most
 recent *recorded* success; Actions logs show routine checks. One extra status
 transition may be written when a changed result becomes unchanged.
 
-During Phase 1 last_successful_published_snapshot means the candidate was written
-inside the runner, not that main or the public raw URL was updated.
+last_successful_published_snapshot is set when a snapshot candidate is written.
+The publication step then commits it. If pushing fails, public files stay unchanged;
+inspect the failed run and do not treat artifact timestamps as proof of publication.
 
 ## Troubleshooting
 
@@ -126,9 +130,8 @@ inside the runner, not that main or the public raw URL was updated.
 * Workflow unavailable: it must exist on the default branch for manual dispatch.
 * No artifact: inspect checkout/setup/tests failures; retrieval may not have started.
 
-Local network access was unavailable during initial setup. This does not establish
-a Cloudflare restriction or prove GitHub-hosted API access. The manual run is the
-required evidence. If GitHub-hosted requests are denied, options are asking the
+Local DNS resolution failed during setup. The linked manual GitHub-hosted run
+subsequently confirmed valid API access from a real runner. If GitHub-hosted requests are denied, options are asking the
 Armory operator for an approved API route, using an approved cloud runner if they
 permit it, or retaining manual snapshot uploads. No security workaround is included.
 
@@ -137,7 +140,7 @@ permit it, or retaining manual snapshot uploads. No security workaround is inclu
 Current committed snapshot:
 https://raw.githubusercontent.com/stefan-mostert/wow-forever-armory/main/otheos.json
 
-After status is published in Phase 2:
+Status (available after the first Phase 2 publication):
 https://raw.githubusercontent.com/stefan-mostert/wow-forever-armory/main/update-status.json
 
 Replace otheos.json with another configured output filename. Raw GitHub responses
