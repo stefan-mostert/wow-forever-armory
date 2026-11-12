@@ -64,3 +64,8 @@ The retrieved outcome still fails the workflow if any character failed, even whe
 failure diagnostics were successfully committed. Tests must pass before retrieval.
 Published snapshot timestamps refer to snapshot writes which are committed by the
 publication step; a push failure leaves public files unchanged and fails the run.
+
+## GitHub Actions runtime
+Use Node.js 24-based official actions: checkout v7.0.1, setup-python v7.1.0
+and upload-artifact v7.0.2. Python remains 3.12. These action runtime updates
+do not change updater permissions, publication behavior or the hourly schedule.
