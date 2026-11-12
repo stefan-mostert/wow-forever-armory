@@ -1,0 +1,64 @@
+name: Update Armory (Phase 1)
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: armory-updater
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run mocked tests
+        run: python -m unittest discover -s tests -v
+      - name: Retrieve candidate snapshots
+        id: retrieve
+        run: |
+          mkdir -p candidate
+          python - <<'PY'
+          import shutil
+          from pathlib import Path
+          from update_armory import load_config
+          for character in load_config(Path("characters.json")):
+              source = Path(character["output"])
+              if source.exists():
+                  shutil.copy2(source, Path("candidate") / source.name)
+          if Path("update-status.json").exists():
+              shutil.copy2("update-status.json", "candidate/update-status.json")
+          PY
+          set -o pipefail
+          python update_armory.py --output-dir candidate 2>&1 | tee updater.log
+      - name: Upload candidates and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: armory-phase1-${{ github.run_id }}
+          path: |
+            candidate/
+            updater.log
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Report result
+        if: always()
+        env:
+          RESULT: ${{ steps.retrieve.outcome }}
+        run: |
+          echo "## Armory Phase 1" >> "$GITHUB_STEP_SUMMARY"
+          echo "Retrieval result: $RESULT" >> "$GITHUB_STEP_SUMMARY"
+          echo "Candidates and logs are artifacts only. No snapshots were committed." >> "$GITHUB_STEP_SUMMARY"
+          echo "refresh=1 requests a refresh; upstream freshness is not guaranteed." >> "$GITHUB_STEP_SUMMARY"
+          if [ "$RESULT" != "success" ]; then
+            echo "::error::Armory retrieval did not succeed. Inspect tests, logs and status artifact."
+            exit 1
+          fi
