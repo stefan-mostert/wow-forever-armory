@@ -52,3 +52,15 @@ GITHUB_TOKEN, stage only configured snapshots and status, skip empty commits,
 push only the default branch, and retain failure diagnostics. No credentials.
 Use repository-wide updater concurrency to prevent overlapping publications.
 GitHub scheduling can be delayed; it is not an exact hourly service guarantee.
+
+## Phase 2 activation record
+Manual GitHub-hosted run 43303688505 succeeded: live Otheos retrieval validated,
+fromCache=false, fetchedAt=1794516423867, character information unchanged.
+The hourly schedule and automatic publication are now approved by this gate.
+Publication runs on the default branch only. After retrieval (success or failure),
+copy candidate snapshots and status to the checkout and stage only configured
+outputs plus status. Commit only staged changes; a failed push fails the run.
+The retrieved outcome still fails the workflow if any character failed, even when
+failure diagnostics were successfully committed. Tests must pass before retrieval.
+Published snapshot timestamps refer to snapshot writes which are committed by the
+publication step; a push failure leaves public files unchanged and fails the run.

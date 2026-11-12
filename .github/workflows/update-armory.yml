@@ -1,9 +1,11 @@
-name: Update Armory (Phase 1)
+name: Update Armory
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: armory-updater
@@ -11,12 +13,13 @@ concurrency:
 
 jobs:
   check:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -39,11 +42,39 @@ jobs:
           PY
           set -o pipefail
           python update_armory.py --output-dir candidate 2>&1 | tee updater.log
+      - name: Publish snapshots and status
+        if: ${{ !cancelled() && (steps.retrieve.outcome == 'success' || steps.retrieve.outcome == 'failure') }}
+        run: |
+          python - <<'PY'
+          import shutil
+          import subprocess
+          from pathlib import Path
+          from update_armory import load_config
+          paths = [c["output"] for c in load_config(Path("characters.json"))]
+          paths.append("update-status.json")
+          for name in paths:
+              source = Path("candidate") / name
+              if source.exists():
+                  shutil.copy2(source, name)
+          existing = [name for name in paths if Path(name).is_file()]
+          if existing:
+              subprocess.run(["git", "add", "--", *existing], check=True)
+          result = subprocess.run(["git", "diff", "--cached", "--quiet"])
+          if result.returncode == 0:
+              print("No meaningful changes; skipping commit.")
+          elif result.returncode == 1:
+              subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
+              subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], check=True)
+              subprocess.run(["git", "commit", "-m", "Update Armory snapshots and status"], check=True)
+              subprocess.run(["git", "push"], check=True)
+          else:
+              raise SystemExit(result.returncode)
+          PY
       - name: Upload candidates and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: armory-phase1-${{ github.run_id }}
+          name: armory-update-${{ github.run_id }}
           path: |
             candidate/
             updater.log
@@ -54,9 +85,9 @@ jobs:
         env:
           RESULT: ${{ steps.retrieve.outcome }}
         run: |
-          echo "## Armory Phase 1" >> "$GITHUB_STEP_SUMMARY"
+          echo "## Armory update" >> "$GITHUB_STEP_SUMMARY"
           echo "Retrieval result: $RESULT" >> "$GITHUB_STEP_SUMMARY"
-          echo "Candidates and logs are artifacts only. No snapshots were committed." >> "$GITHUB_STEP_SUMMARY"
+          echo "Changed snapshots and status are committed when publication succeeds. See the publication step." >> "$GITHUB_STEP_SUMMARY"
           echo "refresh=1 requests a refresh; upstream freshness is not guaranteed." >> "$GITHUB_STEP_SUMMARY"
           if [ "$RESULT" != "success" ]; then
             echo "::error::Armory retrieval did not succeed. Inspect tests, logs and status artifact."
