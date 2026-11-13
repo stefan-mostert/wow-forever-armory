@@ -1,13 +1,13 @@
 {
   "otheos.json": {
     "name": "Otheos Stormward",
-    "outcome": "character_changed",
-    "source_fetched_at": 1794563020263,
+    "outcome": "source_refreshed_unchanged",
+    "source_fetched_at": 1794592395720,
     "source_from_cache": false,
-    "character_changed": true,
+    "character_changed": false,
     "last_error": null,
     "last_error_at": null,
-    "last_successful_published_snapshot": "2026-11-13T09:43:39Z",
-    "last_successful_check": "2026-11-13T09:43:39Z"
+    "last_successful_published_snapshot": "2026-11-13T17:53:14Z",
+    "last_successful_check": "2026-11-13T17:53:14Z"
   }
 }
