@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 23,
+  "level": 24,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794478315000,
+  "lastLogin": 1794534874000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -193,7 +193,13 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [],
+      "gems": [
+        {
+          "id": 3240,
+          "name": "Coarse Weightstone",
+          "effect": "Weighted +3"
+        }
+      ],
       "socketBonus": null
     },
     {
@@ -216,13 +222,13 @@
   "averageIlvl": 16,
   "gearscore": 132,
   "stats": {
-    "health": 829,
-    "power": 729,
+    "health": 857,
+    "power": 770,
     "powerType": "Mana",
-    "strength": 78,
-    "agility": 41,
-    "stamina": 77,
-    "intellect": 34,
+    "strength": 79,
+    "agility": 42,
+    "stamina": 79,
+    "intellect": 35,
     "spirit": 55,
     "spellPower": 0,
     "healing": 0,
@@ -230,15 +236,15 @@
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 205,
-    "meleeCrit": 6.3,
+    "attackPower": 210,
+    "meleeCrit": 6.25,
     "meleeHaste": 0,
-    "rangedCrit": 3.5,
-    "armor": 1578,
-    "defense": 114,
-    "dodge": 5.3,
-    "parry": 4.96,
-    "block": 4.96
+    "rangedCrit": 3.29,
+    "armor": 1580,
+    "defense": 118,
+    "dodge": 5.25,
+    "parry": 4.92,
+    "block": 4.92
   },
   "talents": [
     {
@@ -253,14 +259,14 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 2,
+          "points": 3,
           "talents": [
             {
               "id": 105626,
               "spellId": 20127,
               "name": "Redoubt",
-              "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 12%.  Lasts 10 sec or 5 blocks.",
-              "rank": 2
+              "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 18%.  Lasts 10 sec or 5 blocks.",
+              "rank": 3
             }
           ]
         },
@@ -391,7 +397,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794517106814,
+  "fetchedAt": 1794535022328,
   "fromCache": false,
   "raceRanks": null
 }
