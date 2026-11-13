@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 24,
+  "level": 25,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794534874000,
+  "lastLogin": 1794561651000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -184,33 +184,43 @@
       "slot": "MAIN_HAND",
       "slotName": "Main Hand",
       "inventoryType": "WEAPON",
-      "id": 3491,
-      "name": "Heavy Bronze Mace",
-      "quality": "UNCOMMON",
+      "id": 1292,
+      "name": "Butcher's Cleaver",
+      "quality": "RARE",
       "ilvl": 25,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_mace_08.jpg",
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_axe_23.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [
-        {
-          "id": 3240,
-          "name": "Coarse Weightstone",
-          "effect": "Weighted +3"
-        }
-      ],
+      "gems": [],
       "socketBonus": null
     },
     {
       "slot": "OFF_HAND",
       "slotName": "Off Hand",
       "inventoryType": "SHIELD",
-      "id": 1276,
-      "name": "Fire Hardened Buckler",
-      "quality": "UNCOMMON",
-      "ilvl": 27,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_09.jpg",
+      "id": 6320,
+      "name": "Commander's Crest",
+      "quality": "RARE",
+      "ilvl": 26,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_03.jpg",
+      "setName": null,
+      "setPieces": [],
+      "enchant": null,
+      "enchantId": null,
+      "gems": [],
+      "socketBonus": null
+    },
+    {
+      "slot": "TABARD",
+      "slotName": "Tabard",
+      "inventoryType": "TABARD",
+      "id": 5976,
+      "name": "Guild Tabard",
+      "quality": "COMMON",
+      "ilvl": 1,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shirt_guildtabard_01.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -220,31 +230,31 @@
     }
   ],
   "averageIlvl": 16,
-  "gearscore": 132,
+  "gearscore": 151,
   "stats": {
-    "health": 857,
-    "power": 770,
+    "health": 916,
+    "power": 812,
     "powerType": "Mana",
-    "strength": 79,
-    "agility": 42,
-    "stamina": 79,
-    "intellect": 35,
-    "spirit": 55,
+    "strength": 86,
+    "agility": 44,
+    "stamina": 83,
+    "intellect": 36,
+    "spirit": 50,
     "spellPower": 0,
     "healing": 0,
-    "spellCrit": 5.81,
+    "spellCrit": 5.79,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 210,
-    "meleeCrit": 6.25,
+    "attackPower": 227,
+    "meleeCrit": 6.23,
     "meleeHaste": 0,
-    "rangedCrit": 3.29,
-    "armor": 1580,
-    "defense": 118,
-    "dodge": 5.25,
-    "parry": 4.92,
-    "block": 4.92
+    "rangedCrit": 3.31,
+    "armor": 1641,
+    "defense": 120,
+    "dodge": 5.23,
+    "parry": 4.8,
+    "block": 4.8
   },
   "talents": [
     {
@@ -389,15 +399,19 @@
       ],
       [
         21,
-        5205
+        2767
       ],
       [
         14,
-        2210
+        18700
+      ],
+      [
+        19,
+        736793
       ]
     ]
   },
-  "fetchedAt": 1794535022328,
+  "fetchedAt": 1794563020263,
   "fromCache": false,
   "raceRanks": null
 }
