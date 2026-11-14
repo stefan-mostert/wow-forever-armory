@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 25,
+  "level": 26,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794561651000,
+  "lastLogin": 1794693713000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -232,29 +232,29 @@
   "averageIlvl": 16,
   "gearscore": 151,
   "stats": {
-    "health": 916,
-    "power": 812,
+    "health": 946,
+    "power": 854,
     "powerType": "Mana",
-    "strength": 86,
-    "agility": 44,
-    "stamina": 83,
-    "intellect": 36,
-    "spirit": 50,
+    "strength": 88,
+    "agility": 45,
+    "stamina": 84,
+    "intellect": 37,
+    "spirit": 51,
     "spellPower": 0,
     "healing": 0,
     "spellCrit": 5.79,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 227,
-    "meleeCrit": 6.23,
+    "attackPower": 234,
+    "meleeCrit": 6.22,
     "meleeHaste": 0,
-    "rangedCrit": 3.31,
-    "armor": 1641,
-    "defense": 120,
-    "dodge": 5.23,
-    "parry": 4.8,
-    "block": 4.8
+    "rangedCrit": 3.1,
+    "armor": 1643,
+    "defense": 124,
+    "dodge": 5.18,
+    "parry": 4.76,
+    "block": 4.76
   },
   "talents": [
     {
@@ -269,14 +269,14 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 3,
+          "points": 5,
           "talents": [
             {
               "id": 105626,
               "spellId": 20127,
               "name": "Redoubt",
-              "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 18%.  Lasts 10 sec or 5 blocks.",
-              "rank": 3
+              "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 30%.  Lasts 10 sec or 5 blocks.",
+              "rank": 5
             }
           ]
         },
@@ -411,7 +411,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794683801905,
+  "fetchedAt": 1794697580564,
   "fromCache": false,
   "raceRanks": null
 }
