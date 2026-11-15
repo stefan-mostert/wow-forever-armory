@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 26,
+  "level": 27,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794693713000,
+  "lastLogin": 1794732260000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -88,15 +88,15 @@
       "slot": "LEGS",
       "slotName": "Legs",
       "inventoryType": "LEGS",
-      "id": 2865,
-      "name": "Rough Bronze Leggings",
+      "id": 2545,
+      "name": "Malleable Chain Leggings",
       "quality": "UNCOMMON",
-      "ilvl": 21,
+      "ilvl": 26,
       "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_03.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": "Stamina +2 and Armor +16",
-      "enchantId": 8481,
+      "enchant": null,
+      "enchantId": null,
       "gems": [],
       "socketBonus": null
     },
@@ -193,7 +193,13 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [],
+      "gems": [
+        {
+          "id": 2863,
+          "name": "Coarse Sharpening Stone",
+          "effect": "Sharpened +3"
+        }
+      ],
       "socketBonus": null
     },
     {
@@ -230,31 +236,31 @@
     }
   ],
   "averageIlvl": 16,
-  "gearscore": 151,
+  "gearscore": 155,
   "stats": {
-    "health": 946,
-    "power": 854,
+    "health": 937,
+    "power": 896,
     "powerType": "Mana",
-    "strength": 88,
-    "agility": 45,
-    "stamina": 84,
+    "strength": 96,
+    "agility": 49,
+    "stamina": 81,
     "intellect": 37,
-    "spirit": 51,
+    "spirit": 48,
     "spellPower": 0,
     "healing": 0,
     "spellCrit": 5.79,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 234,
-    "meleeCrit": 6.22,
+    "attackPower": 253,
+    "meleeCrit": 6.56,
     "meleeHaste": 0,
-    "rangedCrit": 3.1,
-    "armor": 1643,
-    "defense": 124,
-    "dodge": 5.18,
-    "parry": 4.76,
-    "block": 4.76
+    "rangedCrit": 3.44,
+    "armor": 1649,
+    "defense": 130,
+    "dodge": 5.52,
+    "parry": 4.8,
+    "block": 4.8
   },
   "talents": [
     {
@@ -269,7 +275,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 5,
+          "points": 6,
           "talents": [
             {
               "id": 105626,
@@ -277,6 +283,13 @@
               "name": "Redoubt",
               "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 30%.  Lasts 10 sec or 5 blocks.",
               "rank": 5
+            },
+            {
+              "id": 105638,
+              "spellId": 20189,
+              "name": "Precision",
+              "description": "Improves your chance to hit by 1%.",
+              "rank": 1
             }
           ]
         },
@@ -379,7 +392,7 @@
       ],
       [
         7,
-        4333
+        2922
       ],
       [
         8,
@@ -411,7 +424,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794711032457,
+  "fetchedAt": 1794741252234,
   "fromCache": false,
   "raceRanks": null
 }
