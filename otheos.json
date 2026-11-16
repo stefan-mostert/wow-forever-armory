@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 27,
+  "level": 28,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794732260000,
+  "lastLogin": 1794819838000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -152,11 +152,27 @@
       "slot": "FINGER_1",
       "slotName": "Ring 1",
       "inventoryType": "FINGER",
-      "id": 12054,
-      "name": "Demon Band",
+      "id": 2933,
+      "name": "Seal of Wrynn",
+      "quality": "RARE",
+      "ilvl": 31,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_05.jpg",
+      "setName": null,
+      "setPieces": [],
+      "enchant": null,
+      "enchantId": null,
+      "gems": [],
+      "socketBonus": null
+    },
+    {
+      "slot": "FINGER_2",
+      "slotName": "Ring 2",
+      "inventoryType": "FINGER",
+      "id": 12006,
+      "name": "Meadow Ring of Shadow Protection",
       "quality": "UNCOMMON",
-      "ilvl": 24,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_04.jpg",
+      "ilvl": 22,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_12.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -193,13 +209,7 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [
-        {
-          "id": 2863,
-          "name": "Coarse Sharpening Stone",
-          "effect": "Sharpened +3"
-        }
-      ],
+      "gems": [],
       "socketBonus": null
     },
     {
@@ -235,32 +245,32 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 16,
-  "gearscore": 155,
+  "averageIlvl": 18,
+  "gearscore": 171,
   "stats": {
-    "health": 937,
-    "power": 896,
+    "health": 1019,
+    "power": 998,
     "powerType": "Mana",
     "strength": 96,
-    "agility": 49,
-    "stamina": 81,
-    "intellect": 37,
-    "spirit": 48,
+    "agility": 52,
+    "stamina": 87,
+    "intellect": 42,
+    "spirit": 50,
     "spellPower": 0,
     "healing": 0,
-    "spellCrit": 5.79,
+    "spellCrit": 5.9,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 253,
-    "meleeCrit": 6.56,
+    "attackPower": 256,
+    "meleeCrit": 6.7,
     "meleeHaste": 0,
-    "rangedCrit": 3.44,
-    "armor": 1649,
-    "defense": 130,
-    "dodge": 5.52,
-    "parry": 4.8,
-    "block": 4.8
+    "rangedCrit": 4.86,
+    "armor": 1655,
+    "defense": 134,
+    "dodge": 5.66,
+    "parry": 4.76,
+    "block": 4.76
   },
   "talents": [
     {
@@ -275,7 +285,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 6,
+          "points": 7,
           "talents": [
             {
               "id": 105626,
@@ -288,8 +298,8 @@
               "id": 105638,
               "spellId": 20189,
               "name": "Precision",
-              "description": "Improves your chance to hit by 1%.",
-              "rank": 1
+              "description": "Improves your chance to hit by 2%.",
+              "rank": 2
             }
           ]
         },
@@ -424,7 +434,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794797508623,
+  "fetchedAt": 1794829490290,
   "fromCache": false,
   "raceRanks": null
 }
