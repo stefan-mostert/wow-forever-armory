@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794819838000,
+  "lastLogin": 1794873932000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -209,7 +209,13 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [],
+      "gems": [
+        {
+          "id": 2863,
+          "name": "Coarse Sharpening Stone",
+          "effect": "Sharpened +3"
+        }
+      ],
       "socketBonus": null
     },
     {
@@ -263,14 +269,14 @@
     "spellPenetration": 0,
     "manaRegen": 0,
     "attackPower": 256,
-    "meleeCrit": 6.7,
+    "meleeCrit": 6.86,
     "meleeHaste": 0,
     "rangedCrit": 4.86,
     "armor": 1655,
-    "defense": 134,
-    "dodge": 5.66,
-    "parry": 4.76,
-    "block": 4.76
+    "defense": 137,
+    "dodge": 5.78,
+    "parry": 4.88,
+    "block": 4.88
   },
   "talents": [
     {
@@ -434,7 +440,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794867604329,
+  "fetchedAt": 1794890286324,
   "fromCache": false,
   "raceRanks": null
 }
