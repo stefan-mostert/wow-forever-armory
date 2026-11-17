@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794901575000,
+  "lastLogin": 1794938984000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -168,11 +168,11 @@
       "slot": "FINGER_2",
       "slotName": "Ring 2",
       "inventoryType": "FINGER",
-      "id": 12006,
-      "name": "Meadow Ring of Shadow Protection",
+      "id": 6743,
+      "name": "Sustaining Ring",
       "quality": "UNCOMMON",
-      "ilvl": 22,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_12.jpg",
+      "ilvl": 25,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_08.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -216,11 +216,11 @@
       "slot": "OFF_HAND",
       "slotName": "Off Hand",
       "inventoryType": "SHIELD",
-      "id": 6320,
-      "name": "Commander's Crest",
+      "id": 7002,
+      "name": "Arctic Buckler",
       "quality": "RARE",
-      "ilvl": 26,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_03.jpg",
+      "ilvl": 29,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_02.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -246,27 +246,27 @@
     }
   ],
   "averageIlvl": 19,
-  "gearscore": 197,
+  "gearscore": 201,
   "stats": {
-    "health": 1132,
+    "health": 1192,
     "power": 1040,
     "powerType": "Mana",
-    "strength": 103,
+    "strength": 98,
     "agility": 45,
-    "stamina": 97,
+    "stamina": 103,
     "intellect": 43,
-    "spirit": 49,
+    "spirit": 52,
     "spellPower": 0,
     "healing": 0,
     "spellCrit": 5.9,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 273,
+    "attackPower": 263,
     "meleeCrit": 6.1,
     "meleeHaste": 0,
     "rangedCrit": 4.9,
-    "armor": 1661,
+    "armor": 1718,
     "defense": 144,
     "dodge": 5.06,
     "parry": 4.96,
@@ -285,7 +285,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 7,
+          "points": 8,
           "talents": [
             {
               "id": 105626,
@@ -298,8 +298,8 @@
               "id": 105638,
               "spellId": 20189,
               "name": "Precision",
-              "description": "Improves your chance to hit by 2%.",
-              "rank": 2
+              "description": "Improves your chance to hit by 3%.",
+              "rank": 3
             }
           ]
         },
@@ -426,7 +426,7 @@
       ],
       [
         14,
-        18700
+        4108
       ],
       [
         19,
@@ -434,7 +434,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794926433260,
+  "fetchedAt": 1794956364710,
   "fromCache": false,
   "raceRanks": null
 }
