@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 28,
+  "level": 29,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794873932000,
+  "lastLogin": 1794901575000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -72,11 +72,11 @@
       "slot": "WAIST",
       "slotName": "Waist",
       "inventoryType": "WAIST",
-      "id": 6460,
-      "name": "Cobrahn's Grasp",
+      "id": 273846,
+      "name": "Twilight Lord Girdle",
       "quality": "RARE",
-      "ilvl": 22,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_03.jpg",
+      "ilvl": 30,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_27.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -104,15 +104,15 @@
       "slot": "FEET",
       "slotName": "Feet",
       "inventoryType": "FEET",
-      "id": 277234,
-      "name": "Alacritous Treads",
-      "quality": "UNCOMMON",
+      "id": 273842,
+      "name": "Treacherous Treads",
+      "quality": "RARE",
       "ilvl": 28,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_01.jpg",
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_02.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": "Stamina +2 and Armor +16",
-      "enchantId": 8481,
+      "enchant": null,
+      "enchantId": null,
       "gems": [],
       "socketBonus": null
     },
@@ -136,15 +136,15 @@
       "slot": "HANDS",
       "slotName": "Hands",
       "inventoryType": "HAND",
-      "id": 7606,
-      "name": "Polar Gauntlets",
-      "quality": "UNCOMMON",
-      "ilvl": 22,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_04.jpg",
+      "id": 6906,
+      "name": "Algae Fists",
+      "quality": "RARE",
+      "ilvl": 28,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_10.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": "Stamina +2 and Armor +16",
-      "enchantId": 8481,
+      "enchant": null,
+      "enchantId": null,
       "gems": [],
       "socketBonus": null
     },
@@ -209,13 +209,7 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [
-        {
-          "id": 2863,
-          "name": "Coarse Sharpening Stone",
-          "effect": "Sharpened +3"
-        }
-      ],
+      "gems": [],
       "socketBonus": null
     },
     {
@@ -251,32 +245,32 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 18,
-  "gearscore": 171,
+  "averageIlvl": 19,
+  "gearscore": 197,
   "stats": {
-    "health": 1019,
-    "power": 998,
+    "health": 1132,
+    "power": 1040,
     "powerType": "Mana",
-    "strength": 96,
-    "agility": 52,
-    "stamina": 87,
-    "intellect": 42,
-    "spirit": 50,
+    "strength": 103,
+    "agility": 45,
+    "stamina": 97,
+    "intellect": 43,
+    "spirit": 49,
     "spellPower": 0,
     "healing": 0,
     "spellCrit": 5.9,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 256,
-    "meleeCrit": 6.86,
+    "attackPower": 273,
+    "meleeCrit": 6.1,
     "meleeHaste": 0,
-    "rangedCrit": 4.86,
-    "armor": 1655,
-    "defense": 137,
-    "dodge": 5.78,
-    "parry": 4.88,
-    "block": 4.88
+    "rangedCrit": 4.9,
+    "armor": 1661,
+    "defense": 144,
+    "dodge": 5.06,
+    "parry": 4.96,
+    "block": 4.96
   },
   "talents": [
     {
@@ -404,7 +398,7 @@
       ],
       [
         6,
-        11623
+        27429
       ],
       [
         7,
@@ -412,7 +406,7 @@
       ],
       [
         8,
-        4030
+        12095
       ],
       [
         9,
@@ -420,7 +414,7 @@
       ],
       [
         10,
-        15721
+        9082
       ],
       [
         16,
@@ -440,7 +434,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794890286324,
+  "fetchedAt": 1794926433260,
   "fromCache": false,
   "raceRanks": null
 }
