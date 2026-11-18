@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794938984000,
+  "lastLogin": 1794972670000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -265,7 +265,7 @@
     "attackPower": 263,
     "meleeCrit": 6.1,
     "meleeHaste": 0,
-    "rangedCrit": 4.9,
+    "rangedCrit": 4.94,
     "armor": 1718,
     "defense": 144,
     "dodge": 5.06,
@@ -386,7 +386,7 @@
     "items": [
       [
         3,
-        23531
+        744647
       ],
       [
         4,
@@ -394,7 +394,7 @@
       ],
       [
         5,
-        4407
+        744643
       ],
       [
         6,
@@ -402,11 +402,11 @@
       ],
       [
         7,
-        2922
+        3058
       ],
       [
         8,
-        12095
+        744640
       ],
       [
         9,
@@ -418,7 +418,7 @@
       ],
       [
         16,
-        23109
+        741400
       ],
       [
         21,
@@ -434,7 +434,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794956364710,
+  "fetchedAt": 1794976424076,
   "fromCache": false,
   "raceRanks": null
 }
