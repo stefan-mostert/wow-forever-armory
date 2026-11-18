@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 29,
+  "level": 31,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1794972670000,
+  "lastLogin": 1794996169000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -24,11 +24,11 @@
       "slot": "SHOULDER",
       "slotName": "Shoulders",
       "inventoryType": "SHOULDER",
-      "id": 3480,
-      "name": "Rough Bronze Shoulders",
+      "id": 6388,
+      "name": "Glimmering Mail Pauldrons",
       "quality": "UNCOMMON",
-      "ilvl": 22,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_05.jpg",
+      "ilvl": 30,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_20.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -181,6 +181,22 @@
       "socketBonus": null
     },
     {
+      "slot": "TRINKET_1",
+      "slotName": "Trinket 1",
+      "inventoryType": "TRINKET",
+      "id": 280766,
+      "name": "Satchel of Potions",
+      "quality": "UNCOMMON",
+      "ilvl": 33,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_08.jpg",
+      "setName": null,
+      "setPieces": [],
+      "enchant": null,
+      "enchantId": null,
+      "gems": [],
+      "socketBonus": null
+    },
+    {
       "slot": "BACK",
       "slotName": "Back",
       "inventoryType": "CLOAK",
@@ -245,32 +261,32 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 19,
-  "gearscore": 201,
+  "averageIlvl": 22,
+  "gearscore": 220,
   "stats": {
-    "health": 1192,
-    "power": 1040,
+    "health": 1221,
+    "power": 1124,
     "powerType": "Mana",
-    "strength": 98,
-    "agility": 45,
-    "stamina": 103,
-    "intellect": 43,
-    "spirit": 52,
+    "strength": 103,
+    "agility": 47,
+    "stamina": 101,
+    "intellect": 45,
+    "spirit": 59,
     "spellPower": 0,
     "healing": 0,
-    "spellCrit": 5.9,
+    "spellCrit": 5.88,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 263,
-    "meleeCrit": 6.1,
+    "attackPower": 279,
+    "meleeCrit": 5.8,
     "meleeHaste": 0,
-    "rangedCrit": 4.94,
-    "armor": 1718,
-    "defense": 144,
-    "dodge": 5.06,
-    "parry": 4.96,
-    "block": 4.96
+    "rangedCrit": 4.44,
+    "armor": 1741,
+    "defense": 149,
+    "dodge": 4.76,
+    "parry": 4.76,
+    "block": 4.76
   },
   "talents": [
     {
@@ -285,7 +301,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 8,
+          "points": 10,
           "talents": [
             {
               "id": 105626,
@@ -300,6 +316,13 @@
               "name": "Precision",
               "description": "Improves your chance to hit by 3%.",
               "rank": 3
+            },
+            {
+              "id": 105632,
+              "spellId": 1224697,
+              "name": "Sacred Duty",
+              "description": "Reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec, and reduces the duration of Forbearance by 10 sec.",
+              "rank": 2
             }
           ]
         },
@@ -434,7 +457,7 @@
       ]
     ]
   },
-  "fetchedAt": 1794976424076,
+  "fetchedAt": 1795011416550,
   "fromCache": false,
   "raceRanks": null
 }
