@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795066304000,
+  "lastLogin": 1795115227000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -20,6 +20,22 @@
   "avatar": "https://render.worldofwarcraft.com/forever-us/character/29/193821-avatar.jpg",
   "render": "https://render.worldofwarcraft.com/forever-us/character/29/193821-main-raw.png",
   "items": [
+    {
+      "slot": "HEAD",
+      "slotName": "Head",
+      "inventoryType": "HEAD",
+      "id": 1282,
+      "name": "Sparkmetal Coif",
+      "quality": "UNCOMMON",
+      "ilvl": 33,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_02.jpg",
+      "setName": null,
+      "setPieces": [],
+      "enchant": null,
+      "enchantId": null,
+      "gems": [],
+      "socketBonus": null
+    },
     {
       "slot": "SHOULDER",
       "slotName": "Shoulders",
@@ -261,32 +277,32 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 22,
-  "gearscore": 220,
+  "averageIlvl": 24,
+  "gearscore": 243,
   "stats": {
     "health": 1221,
     "power": 1124,
     "powerType": "Mana",
-    "strength": 103,
+    "strength": 112,
     "agility": 47,
     "stamina": 101,
     "intellect": 45,
-    "spirit": 59,
+    "spirit": 68,
     "spellPower": 0,
     "healing": 0,
     "spellCrit": 5.88,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 0,
-    "attackPower": 279,
-    "meleeCrit": 5.8,
+    "attackPower": 297,
+    "meleeCrit": 5.96,
     "meleeHaste": 0,
     "rangedCrit": 4.44,
-    "armor": 1741,
-    "defense": 149,
-    "dodge": 4.76,
-    "parry": 4.76,
-    "block": 4.76
+    "armor": 1909,
+    "defense": 152,
+    "dodge": 4.88,
+    "parry": 4.88,
+    "block": 4.88
   },
   "talents": [
     {
@@ -408,6 +424,10 @@
     ],
     "items": [
       [
+        1,
+        15282
+      ],
+      [
         3,
         744647
       ],
@@ -457,7 +477,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795095056817,
+  "fetchedAt": 1795126623325,
   "fromCache": false,
   "raceRanks": null
 }
