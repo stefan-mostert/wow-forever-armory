@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 31,
+  "level": 32,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795115227000,
+  "lastLogin": 1795137370000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -72,15 +72,15 @@
       "slot": "CHEST",
       "slotName": "Chest",
       "inventoryType": "CHEST",
-      "id": 2866,
-      "name": "Rough Bronze Cuirass",
-      "quality": "UNCOMMON",
-      "ilvl": 23,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_08.jpg",
+      "id": 273035,
+      "name": "Mana-Warped Chain Shirt",
+      "quality": "RARE",
+      "ilvl": 32,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_04.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": "Stamina +2 and Armor +16",
-      "enchantId": 8481,
+      "enchant": null,
+      "enchantId": null,
       "gems": [],
       "socketBonus": null
     },
@@ -216,11 +216,11 @@
       "slot": "BACK",
       "slotName": "Back",
       "inventoryType": "CLOAK",
-      "id": 6629,
-      "name": "Sporid Cape",
-      "quality": "RARE",
-      "ilvl": 22,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_17.jpg",
+      "id": 279835,
+      "name": "Vine Pruner's Cloak",
+      "quality": "UNCOMMON",
+      "ilvl": 36,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_13.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -248,11 +248,11 @@
       "slot": "OFF_HAND",
       "slotName": "Off Hand",
       "inventoryType": "SHIELD",
-      "id": 7002,
-      "name": "Arctic Buckler",
-      "quality": "RARE",
-      "ilvl": 29,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_02.jpg",
+      "id": 6223,
+      "name": "Crest of Darkshire",
+      "quality": "UNCOMMON",
+      "ilvl": 35,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_05.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -277,32 +277,32 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 24,
-  "gearscore": 243,
+  "averageIlvl": 26,
+  "gearscore": 260,
   "stats": {
-    "health": 1221,
-    "power": 1124,
+    "health": 1227,
+    "power": 1166,
     "powerType": "Mana",
-    "strength": 112,
+    "strength": 128,
     "agility": 47,
-    "stamina": 101,
-    "intellect": 45,
-    "spirit": 68,
-    "spellPower": 0,
-    "healing": 0,
+    "stamina": 100,
+    "intellect": 46,
+    "spirit": 66,
+    "spellPower": 5,
+    "healing": 5,
     "spellCrit": 5.88,
     "spellHaste": 0,
     "spellPenetration": 0,
-    "manaRegen": 0,
-    "attackPower": 297,
+    "manaRegen": 3,
+    "attackPower": 332,
     "meleeCrit": 5.96,
     "meleeHaste": 0,
-    "rangedCrit": 4.44,
-    "armor": 1909,
-    "defense": 152,
-    "dodge": 4.88,
-    "parry": 4.88,
-    "block": 4.88
+    "rangedCrit": 4.24,
+    "armor": 1964,
+    "defense": 158,
+    "dodge": 4.92,
+    "parry": 4.92,
+    "block": 4.92
   },
   "talents": [
     {
@@ -317,7 +317,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 10,
+          "points": 11,
           "talents": [
             {
               "id": 105626,
@@ -339,6 +339,13 @@
               "name": "Sacred Duty",
               "description": "Reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec, and reduces the duration of Forbearance by 10 sec.",
               "rank": 2
+            },
+            {
+              "id": 110874,
+              "spellId": 20150,
+              "name": "Shield Specialization",
+              "description": "Increases the amount of damage absorbed by your shield by 15%, and gives your blocks a 50% chance to restore 4% of your maximum Mana.  May only occur once every 3 sec.",
+              "rank": 1
             }
           ]
         },
@@ -469,7 +476,7 @@
       ],
       [
         14,
-        4108
+        2594
       ],
       [
         19,
@@ -477,7 +484,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795126623325,
+  "fetchedAt": 1795145480285,
   "fromCache": false,
   "raceRanks": null
 }
