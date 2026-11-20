@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795162884000,
+  "lastLogin": 1795201392000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -484,7 +484,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795180328267,
+  "fetchedAt": 1795209439658,
   "fromCache": false,
   "raceRanks": null
 }
