@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 32,
+  "level": 33,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795201392000,
+  "lastLogin": 1795256081000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -104,10 +104,10 @@
       "slot": "LEGS",
       "slotName": "Legs",
       "inventoryType": "LEGS",
-      "id": 2545,
-      "name": "Malleable Chain Leggings",
-      "quality": "UNCOMMON",
-      "ilvl": 26,
+      "id": 9625,
+      "name": "Dual Reinforced Leggings",
+      "quality": "RARE",
+      "ilvl": 37,
       "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_03.jpg",
       "setName": null,
       "setPieces": [],
@@ -278,31 +278,31 @@
     }
   ],
   "averageIlvl": 26,
-  "gearscore": 260,
+  "gearscore": 281,
   "stats": {
-    "health": 1227,
-    "power": 1166,
+    "health": 1234,
+    "power": 1208,
     "powerType": "Mana",
-    "strength": 128,
-    "agility": 47,
-    "stamina": 100,
+    "strength": 134,
+    "agility": 45,
+    "stamina": 98,
     "intellect": 46,
-    "spirit": 66,
+    "spirit": 67,
     "spellPower": 5,
     "healing": 5,
-    "spellCrit": 5.88,
+    "spellCrit": 5.85,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 332,
-    "meleeCrit": 5.96,
+    "attackPower": 347,
+    "meleeCrit": 5.61,
     "meleeHaste": 0,
-    "rangedCrit": 4.24,
-    "armor": 1964,
-    "defense": 158,
-    "dodge": 4.92,
-    "parry": 4.92,
-    "block": 4.92
+    "rangedCrit": 3.69,
+    "armor": 2128,
+    "defense": 168,
+    "dodge": 4.77,
+    "parry": 5.12,
+    "block": 5.12
   },
   "talents": [
     {
@@ -317,7 +317,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 11,
+          "points": 12,
           "talents": [
             {
               "id": 105626,
@@ -344,8 +344,8 @@
               "id": 110874,
               "spellId": 20150,
               "name": "Shield Specialization",
-              "description": "Increases the amount of damage absorbed by your shield by 15%, and gives your blocks a 50% chance to restore 4% of your maximum Mana.  May only occur once every 3 sec.",
-              "rank": 1
+              "description": "Increases the amount of damage absorbed by your shield by 30%, and gives your blocks a 100% chance to restore 4% of your maximum Mana.  May only occur once every 3 sec.",
+              "rank": 2
             }
           ]
         },
@@ -484,7 +484,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795228269782,
+  "fetchedAt": 1795260328335,
   "fromCache": false,
   "raceRanks": null
 }
