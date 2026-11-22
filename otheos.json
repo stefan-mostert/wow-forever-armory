@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 33,
+  "level": 34,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795302288000,
+  "lastLogin": 1795324140000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -29,6 +29,22 @@
       "quality": "UNCOMMON",
       "ilvl": 33,
       "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_02.jpg",
+      "setName": null,
+      "setPieces": [],
+      "enchant": null,
+      "enchantId": null,
+      "gems": [],
+      "socketBonus": null
+    },
+    {
+      "slot": "NECK",
+      "slotName": "Neck",
+      "inventoryType": "NECK",
+      "id": 7746,
+      "name": "Explorers' League Commendation",
+      "quality": "RARE",
+      "ilvl": 40,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_talisman_01.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -136,13 +152,15 @@
       "slot": "WRIST",
       "slotName": "Wrist",
       "inventoryType": "WRIST",
-      "id": 2868,
-      "name": "Patterned Bronze Bracers",
-      "quality": "UNCOMMON",
-      "ilvl": 25,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_07.jpg",
-      "setName": null,
-      "setPieces": [],
+      "id": 10333,
+      "name": "Scarlet Wristguards",
+      "quality": "RARE",
+      "ilvl": 36,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_03.jpg",
+      "setName": "Chain of the Scarlet Crusade",
+      "setPieces": [
+        10333
+      ],
       "enchant": null,
       "enchantId": null,
       "gems": [],
@@ -184,11 +202,11 @@
       "slot": "FINGER_2",
       "slotName": "Ring 2",
       "inventoryType": "FINGER",
-      "id": 6743,
-      "name": "Sustaining Ring",
-      "quality": "UNCOMMON",
-      "ilvl": 25,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_08.jpg",
+      "id": 276899,
+      "name": "Knucklebound Thimble",
+      "quality": "RARE",
+      "ilvl": 38,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_01.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -248,11 +266,11 @@
       "slot": "OFF_HAND",
       "slotName": "Off Hand",
       "inventoryType": "SHIELD",
-      "id": 6223,
-      "name": "Crest of Darkshire",
-      "quality": "UNCOMMON",
-      "ilvl": 35,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_05.jpg",
+      "id": 274290,
+      "name": "Painwalker Buckler",
+      "quality": "RARE",
+      "ilvl": 34,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_07.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -277,30 +295,30 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 26,
-  "gearscore": 281,
+  "averageIlvl": 30,
+  "gearscore": 337,
   "stats": {
-    "health": 1234,
-    "power": 1208,
+    "health": 1502,
+    "power": 1250,
     "powerType": "Mana",
-    "strength": 134,
-    "agility": 45,
-    "stamina": 98,
-    "intellect": 46,
-    "spirit": 67,
-    "spellPower": 5,
-    "healing": 5,
+    "strength": 129,
+    "agility": 46,
+    "stamina": 122,
+    "intellect": 47,
+    "spirit": 78,
+    "spellPower": 10,
+    "healing": 18,
     "spellCrit": 5.85,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 347,
-    "meleeCrit": 5.61,
+    "attackPower": 340,
+    "meleeCrit": 5.62,
     "meleeHaste": 0,
-    "rangedCrit": 3.69,
-    "armor": 2128,
-    "defense": 169,
-    "dodge": 4.81,
+    "rangedCrit": 3.7,
+    "armor": 2281,
+    "defense": 174,
+    "dodge": 4.82,
     "parry": 5.16,
     "block": 5.16
   },
@@ -317,7 +335,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 12,
+          "points": 13,
           "talents": [
             {
               "id": 105626,
@@ -339,6 +357,13 @@
               "name": "Sacred Duty",
               "description": "Reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec, and reduces the duration of Forbearance by 10 sec.",
               "rank": 2
+            },
+            {
+              "id": 105625,
+              "spellId": 1311015,
+              "name": "Templar's Bulwark",
+              "description": "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec. Applies Forbearance for 50 sec. Cannot be cast while Forbearance is active.",
+              "rank": 1
             },
             {
               "id": 110874,
@@ -460,7 +485,7 @@
       ],
       [
         9,
-        19677
+        5322
       ],
       [
         10,
@@ -476,7 +501,7 @@
       ],
       [
         14,
-        2594
+        18698
       ],
       [
         19,
@@ -484,7 +509,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795307284941,
+  "fetchedAt": 1795335047193,
   "fromCache": false,
   "raceRanks": null
 }
