@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795256081000,
+  "lastLogin": 1795302288000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -299,10 +299,10 @@
     "meleeHaste": 0,
     "rangedCrit": 3.69,
     "armor": 2128,
-    "defense": 168,
-    "dodge": 4.77,
-    "parry": 5.12,
-    "block": 5.12
+    "defense": 169,
+    "dodge": 4.81,
+    "parry": 5.16,
+    "block": 5.16
   },
   "talents": [
     {
@@ -484,7 +484,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795289347165,
+  "fetchedAt": 1795307284941,
   "fromCache": false,
   "raceRanks": null
 }
