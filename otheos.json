@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795401881000,
+  "lastLogin": 1795424653000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -95,8 +95,8 @@
       "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_04.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": null,
-      "enchantId": null,
+      "enchant": "Stamina +4 and Armor +32",
+      "enchantId": 8487,
       "gems": [],
       "socketBonus": null
     },
@@ -143,8 +143,8 @@
       "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_02.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": null,
-      "enchantId": null,
+      "enchant": "Stamina +4 and Armor +32",
+      "enchantId": 8487,
       "gems": [],
       "socketBonus": null
     },
@@ -259,7 +259,13 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [],
+      "gems": [
+        {
+          "id": 2871,
+          "name": "Heavy Sharpening Stone",
+          "effect": "Sharpened +4"
+        }
+      ],
       "socketBonus": null
     },
     {
@@ -298,12 +304,12 @@
   "averageIlvl": 31,
   "gearscore": 342,
   "stats": {
-    "health": 1621,
+    "health": 1701,
     "power": 1334,
     "powerType": "Mana",
     "strength": 137,
     "agility": 51,
-    "stamina": 129,
+    "stamina": 137,
     "intellect": 49,
     "spirit": 85,
     "spellPower": 5,
@@ -316,7 +322,7 @@
     "meleeCrit": 5.8,
     "meleeHaste": 0,
     "rangedCrit": 3.48,
-    "armor": 2418,
+    "armor": 2484,
     "defense": 184,
     "dodge": 5,
     "parry": 5.16,
@@ -508,7 +514,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795405649530,
+  "fetchedAt": 1795445798208,
   "fromCache": false,
   "raceRanks": null
 }
