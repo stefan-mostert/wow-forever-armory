@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 34,
+  "level": 36,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795324140000,
+  "lastLogin": 1795401881000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -249,12 +249,12 @@
     {
       "slot": "MAIN_HAND",
       "slotName": "Main Hand",
-      "inventoryType": "WEAPON",
-      "id": 1292,
-      "name": "Butcher's Cleaver",
-      "quality": "RARE",
-      "ilvl": 25,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_axe_23.jpg",
+      "inventoryType": "WEAPONMAINHAND",
+      "id": 15233,
+      "name": "Savage Axe of the Bear",
+      "quality": "UNCOMMON",
+      "ilvl": 39,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_axe_08.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -266,11 +266,11 @@
       "slot": "OFF_HAND",
       "slotName": "Off Hand",
       "inventoryType": "SHIELD",
-      "id": 274290,
-      "name": "Painwalker Buckler",
+      "id": 6725,
+      "name": "Marbled Buckler",
       "quality": "RARE",
-      "ilvl": 34,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_07.jpg",
+      "ilvl": 36,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_10.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -295,30 +295,30 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 30,
-  "gearscore": 337,
+  "averageIlvl": 31,
+  "gearscore": 342,
   "stats": {
-    "health": 1502,
-    "power": 1250,
+    "health": 1621,
+    "power": 1334,
     "powerType": "Mana",
-    "strength": 129,
-    "agility": 46,
-    "stamina": 122,
-    "intellect": 47,
-    "spirit": 78,
-    "spellPower": 10,
-    "healing": 18,
-    "spellCrit": 5.85,
+    "strength": 137,
+    "agility": 51,
+    "stamina": 129,
+    "intellect": 49,
+    "spirit": 85,
+    "spellPower": 5,
+    "healing": 5,
+    "spellCrit": 5.84,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 340,
-    "meleeCrit": 5.62,
+    "attackPower": 362,
+    "meleeCrit": 5.8,
     "meleeHaste": 0,
-    "rangedCrit": 3.7,
-    "armor": 2281,
-    "defense": 174,
-    "dodge": 4.82,
+    "rangedCrit": 3.48,
+    "armor": 2418,
+    "defense": 184,
+    "dodge": 5,
     "parry": 5.16,
     "block": 5.16
   },
@@ -335,7 +335,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 13,
+          "points": 15,
           "talents": [
             {
               "id": 105626,
@@ -370,6 +370,13 @@
               "spellId": 20150,
               "name": "Shield Specialization",
               "description": "Increases the amount of damage absorbed by your shield by 30%, and gives your blocks a 100% chance to restore 4% of your maximum Mana.  May only occur once every 3 sec.",
+              "rank": 2
+            },
+            {
+              "id": 105630,
+              "spellId": 20143,
+              "name": "Toughness",
+              "description": "Increases your armor value from items by 4%.",
               "rank": 2
             }
           ]
@@ -461,11 +468,7 @@
       ],
       [
         3,
-        744647
-      ],
-      [
-        4,
-        3265
+        25806
       ],
       [
         5,
@@ -473,15 +476,15 @@
       ],
       [
         6,
-        27429
+        744639
       ],
       [
         7,
-        3058
+        25868
       ],
       [
         8,
-        744640
+        4343
       ],
       [
         9,
@@ -489,27 +492,23 @@
       ],
       [
         10,
-        9082
+        736757
       ],
       [
         16,
-        741400
+        735664
       ],
       [
         21,
-        2767
+        19550
       ],
       [
         14,
-        18698
-      ],
-      [
-        19,
-        736793
+        18469
       ]
     ]
   },
-  "fetchedAt": 1795386836968,
+  "fetchedAt": 1795405649530,
   "fromCache": false,
   "raceRanks": null
 }
