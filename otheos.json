@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 36,
+  "level": 37,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795424653000,
+  "lastLogin": 1795512812000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -304,29 +304,29 @@
   "averageIlvl": 31,
   "gearscore": 342,
   "stats": {
-    "health": 1701,
-    "power": 1334,
+    "health": 1742,
+    "power": 1376,
     "powerType": "Mana",
-    "strength": 137,
+    "strength": 138,
     "agility": 51,
-    "stamina": 137,
-    "intellect": 49,
-    "spirit": 85,
+    "stamina": 138,
+    "intellect": 50,
+    "spirit": 86,
     "spellPower": 5,
     "healing": 5,
     "spellCrit": 5.84,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 362,
-    "meleeCrit": 5.8,
+    "attackPower": 367,
+    "meleeCrit": 5.76,
     "meleeHaste": 0,
-    "rangedCrit": 3.48,
+    "rangedCrit": 3.28,
     "armor": 2484,
-    "defense": 184,
-    "dodge": 5,
-    "parry": 5.16,
-    "block": 5.16
+    "defense": 188,
+    "dodge": 4.96,
+    "parry": 5.12,
+    "block": 5.12
   },
   "talents": [
     {
@@ -341,7 +341,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 15,
+          "points": 16,
           "talents": [
             {
               "id": 105626,
@@ -384,6 +384,13 @@
               "name": "Toughness",
               "description": "Increases your armor value from items by 4%.",
               "rank": 2
+            },
+            {
+              "id": 110878,
+              "spellId": 1310994,
+              "name": "Swift Judgement",
+              "description": "Unleash the energy of a Seal spell upon an enemy. Does not consume the Seal. Refer to individual Seals for Judgement effect. Does not share a cooldown with your Judgement ability.",
+              "rank": 1
             }
           ]
         },
@@ -514,7 +521,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795486887496,
+  "fetchedAt": 1795524137975,
   "fromCache": false,
   "raceRanks": null
 }
