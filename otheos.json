@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 37,
+  "level": 38,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795573060000,
+  "lastLogin": 1795598357000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -152,15 +152,13 @@
       "slot": "WRIST",
       "slotName": "Wrist",
       "inventoryType": "WRIST",
-      "id": 10333,
-      "name": "Scarlet Wristguards",
+      "id": 274600,
+      "name": "Berserker Shackles",
       "quality": "RARE",
       "ilvl": null,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_03.jpg",
-      "setName": "Chain of the Scarlet Crusade",
-      "setPieces": [
-        10333
-      ],
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_15.jpg",
+      "setName": null,
+      "setPieces": [],
       "enchant": null,
       "enchantId": null,
       "gems": [],
@@ -259,13 +257,7 @@
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [
-        {
-          "id": 2871,
-          "name": "Heavy Sharpening Stone",
-          "effect": "Sharpened +4"
-        }
-      ],
+      "gems": [],
       "socketBonus": null
     },
     {
@@ -304,29 +296,29 @@
   "averageIlvl": null,
   "gearscore": 74,
   "stats": {
-    "health": 1742,
-    "power": 1376,
+    "health": 1674,
+    "power": 1418,
     "powerType": "Mana",
-    "strength": 138,
-    "agility": 51,
-    "stamina": 138,
-    "intellect": 50,
-    "spirit": 86,
+    "strength": 147,
+    "agility": 52,
+    "stamina": 129,
+    "intellect": 51,
+    "spirit": 88,
     "spellPower": 5,
     "healing": 5,
-    "spellCrit": 5.84,
+    "spellCrit": 5.82,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 367,
-    "meleeCrit": 5.8,
+    "attackPower": 388,
+    "meleeCrit": 5.57,
     "meleeHaste": 0,
-    "rangedCrit": 3.28,
-    "armor": 2484,
-    "defense": 188,
-    "dodge": 4.96,
-    "parry": 5.12,
-    "block": 5.12
+    "rangedCrit": 3.01,
+    "armor": 2491,
+    "defense": 195,
+    "dodge": 4.97,
+    "parry": 5.2,
+    "block": 5.2
   },
   "talents": [
     {
@@ -501,7 +493,7 @@
       ],
       [
         9,
-        5322
+        740802
       ],
       [
         10,
@@ -521,7 +513,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795584601807,
+  "fetchedAt": 1795627531832,
   "fromCache": false,
   "raceRanks": null
 }
