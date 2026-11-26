@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 38,
+  "level": 39,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795651413000,
+  "lastLogin": 1795686385000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -136,15 +136,15 @@
       "slot": "FEET",
       "slotName": "Feet",
       "inventoryType": "FEET",
-      "id": 273842,
-      "name": "Treacherous Treads",
+      "id": 19509,
+      "name": "Dusty Mail Boots",
       "quality": "RARE",
-      "ilvl": 28,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_02.jpg",
+      "ilvl": 42,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_02.jpg",
       "setName": null,
       "setPieces": [],
-      "enchant": "Stamina +4 and Armor +32",
-      "enchantId": 8487,
+      "enchant": null,
+      "enchantId": null,
       "gems": [],
       "socketBonus": null
     },
@@ -152,13 +152,15 @@
       "slot": "WRIST",
       "slotName": "Wrist",
       "inventoryType": "WRIST",
-      "id": 274600,
-      "name": "Berserker Shackles",
+      "id": 10333,
+      "name": "Scarlet Wristguards",
       "quality": "RARE",
-      "ilvl": 39,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_15.jpg",
-      "setName": null,
-      "setPieces": [],
+      "ilvl": 36,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_03.jpg",
+      "setName": "Chain of the Scarlet Crusade",
+      "setPieces": [
+        10333
+      ],
       "enchant": null,
       "enchantId": null,
       "gems": [],
@@ -247,12 +249,12 @@
     {
       "slot": "MAIN_HAND",
       "slotName": "Main Hand",
-      "inventoryType": "WEAPONMAINHAND",
-      "id": 15233,
-      "name": "Savage Axe of the Bear",
-      "quality": "UNCOMMON",
-      "ilvl": 39,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_axe_08.jpg",
+      "inventoryType": "WEAPON",
+      "id": 6829,
+      "name": "Sword of Serenity",
+      "quality": "RARE",
+      "ilvl": 44,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_27.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -264,11 +266,11 @@
       "slot": "OFF_HAND",
       "slotName": "Off Hand",
       "inventoryType": "SHIELD",
-      "id": 6725,
-      "name": "Marbled Buckler",
+      "id": 7726,
+      "name": "Aegis of the Scarlet Commander",
       "quality": "RARE",
-      "ilvl": 36,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_10.jpg",
+      "ilvl": 44,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shield_05.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -293,16 +295,16 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 32,
-  "gearscore": 347,
+  "averageIlvl": 33,
+  "gearscore": 379,
   "stats": {
-    "health": 1684,
-    "power": 1418,
+    "health": 1937,
+    "power": 1460,
     "powerType": "Mana",
-    "strength": 147,
-    "agility": 52,
-    "stamina": 130,
-    "intellect": 51,
+    "strength": 133,
+    "agility": 48,
+    "stamina": 152,
+    "intellect": 52,
     "spirit": 91,
     "spellPower": 0,
     "healing": 0,
@@ -310,15 +312,15 @@
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 388,
-    "meleeCrit": 5.57,
+    "attackPower": 363,
+    "meleeCrit": 1.43,
     "meleeHaste": 0,
-    "rangedCrit": 3.01,
-    "armor": 2496,
-    "defense": 198,
-    "dodge": 5.09,
-    "parry": 5.32,
-    "block": 5.32
+    "rangedCrit": 2.51,
+    "armor": 3383,
+    "defense": 196,
+    "dodge": 4.43,
+    "parry": 5.04,
+    "block": 5.04
   },
   "talents": [
     {
@@ -333,7 +335,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 17,
+          "points": 18,
           "talents": [
             {
               "id": 105626,
@@ -388,8 +390,8 @@
               "id": 105634,
               "spellId": 20468,
               "name": "Improved Righteous Fury",
-              "description": "While Righteous Fury is active, all damage taken is reduced by 3%.",
-              "rank": 1
+              "description": "While Righteous Fury is active, all damage taken is reduced by 6%.",
+              "rank": 2
             }
           ]
         },
@@ -500,7 +502,7 @@
       ],
       [
         9,
-        740802
+        5322
       ],
       [
         10,
@@ -512,15 +514,15 @@
       ],
       [
         21,
-        19550
+        12284
       ],
       [
         14,
-        18469
+        18751
       ]
     ]
   },
-  "fetchedAt": 1795657857510,
+  "fetchedAt": 1795691141084,
   "fromCache": false,
   "raceRanks": null
 }
