@@ -2,7 +2,7 @@
   "schema": 10,
   "blizzardId": 193821,
   "name": "Otheos Stormward",
-  "level": 39,
+  "level": 40,
   "race": "Human",
   "raceId": 1,
   "className": "Paladin",
@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795720243000,
+  "lastLogin": 1795775933000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -298,29 +298,29 @@
   "averageIlvl": 33,
   "gearscore": 379,
   "stats": {
-    "health": 1937,
-    "power": 1460,
+    "health": 1981,
+    "power": 1502,
     "powerType": "Mana",
-    "strength": 133,
-    "agility": 48,
-    "stamina": 152,
-    "intellect": 52,
-    "spirit": 91,
+    "strength": 135,
+    "agility": 49,
+    "stamina": 154,
+    "intellect": 53,
+    "spirit": 92,
     "spellPower": 0,
     "healing": 0,
-    "spellCrit": 5.82,
+    "spellCrit": 5.8,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 363,
-    "meleeCrit": 1.43,
+    "attackPower": 370,
+    "meleeCrit": 4.57,
     "meleeHaste": 0,
-    "rangedCrit": 2.51,
-    "armor": 3383,
-    "defense": 196,
-    "dodge": 4.43,
-    "parry": 5.04,
-    "block": 5.04
+    "rangedCrit": 2.25,
+    "armor": 3385,
+    "defense": 202,
+    "dodge": 4.41,
+    "parry": 5.08,
+    "block": 5.08
   },
   "talents": [
     {
@@ -335,7 +335,7 @@
         {
           "id": 383,
           "name": "Protection",
-          "points": 18,
+          "points": 19,
           "talents": [
             {
               "id": 105626,
@@ -390,8 +390,8 @@
               "id": 105634,
               "spellId": 20468,
               "name": "Improved Righteous Fury",
-              "description": "While Righteous Fury is active, all damage taken is reduced by 6%.",
-              "rank": 2
+              "description": "While Righteous Fury is active, all damage taken is reduced by 9%.",
+              "rank": 3
             }
           ]
         },
@@ -522,7 +522,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795748234803,
+  "fetchedAt": 1795783579266,
   "fromCache": false,
   "raceRanks": null
 }
