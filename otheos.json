@@ -12,7 +12,7 @@
   "guild": "Yeah Nah",
   "guildSlug": "yeah-nah",
   "guildServer": null,
-  "lastLogin": 1795775933000,
+  "lastLogin": 1795820812000,
   "region": "us",
   "server": "normal",
   "serverName": null,
@@ -56,11 +56,11 @@
       "slot": "SHOULDER",
       "slotName": "Shoulders",
       "inventoryType": "SHOULDER",
-      "id": 6388,
-      "name": "Glimmering Mail Pauldrons",
-      "quality": "UNCOMMON",
-      "ilvl": 30,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_20.jpg",
+      "id": 277236,
+      "name": "Pauldrons of Vindication",
+      "quality": "RARE",
+      "ilvl": 45,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_09.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -104,11 +104,11 @@
       "slot": "WAIST",
       "slotName": "Waist",
       "inventoryType": "WAIST",
-      "id": 273846,
-      "name": "Twilight Lord Girdle",
+      "id": 250560,
+      "name": "Justicar's Belt",
       "quality": "RARE",
-      "ilvl": 30,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_27.jpg",
+      "ilvl": 35,
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_13.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
@@ -250,16 +250,22 @@
       "slot": "MAIN_HAND",
       "slotName": "Main Hand",
       "inventoryType": "WEAPON",
-      "id": 6829,
-      "name": "Sword of Serenity",
+      "id": 10823,
+      "name": "Vanquisher's Sword",
       "quality": "RARE",
       "ilvl": 44,
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_27.jpg",
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_35.jpg",
       "setName": null,
       "setPieces": [],
       "enchant": null,
       "enchantId": null,
-      "gems": [],
+      "gems": [
+        {
+          "id": 2871,
+          "name": "Heavy Sharpening Stone",
+          "effect": "Sharpened +4"
+        }
+      ],
       "socketBonus": null
     },
     {
@@ -295,32 +301,32 @@
       "socketBonus": null
     }
   ],
-  "averageIlvl": 33,
-  "gearscore": 379,
+  "averageIlvl": 35,
+  "gearscore": 402,
   "stats": {
-    "health": 1981,
+    "health": 2061,
     "power": 1502,
     "powerType": "Mana",
-    "strength": 135,
+    "strength": 137,
     "agility": 49,
-    "stamina": 154,
+    "stamina": 162,
     "intellect": 53,
-    "spirit": 92,
-    "spellPower": 0,
-    "healing": 0,
-    "spellCrit": 5.8,
+    "spirit": 82,
+    "spellPower": 12,
+    "healing": 12,
+    "spellCrit": 6.52,
     "spellHaste": 0,
     "spellPenetration": 0,
     "manaRegen": 3,
-    "attackPower": 370,
-    "meleeCrit": 4.57,
+    "attackPower": 396,
+    "meleeCrit": 6.01,
     "meleeHaste": 0,
-    "rangedCrit": 2.25,
-    "armor": 3385,
-    "defense": 202,
-    "dodge": 4.41,
-    "parry": 5.08,
-    "block": 5.08
+    "rangedCrit": 2.97,
+    "armor": 3614,
+    "defense": 207,
+    "dodge": 4.61,
+    "parry": 5.28,
+    "block": 5.28
   },
   "talents": [
     {
@@ -482,7 +488,7 @@
       ],
       [
         3,
-        25806
+        747162
       ],
       [
         5,
@@ -514,7 +520,7 @@
       ],
       [
         21,
-        12284
+        1930
       ],
       [
         14,
@@ -522,7 +528,7 @@
       ]
     ]
   },
-  "fetchedAt": 1795817240688,
+  "fetchedAt": 1795838385208,
   "fromCache": false,
   "raceRanks": null
 }
